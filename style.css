@@ -1,0 +1,230 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+ .main-menu{
+    
+    height: 80px;
+    
+}
+.full-width{
+    width: 90%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;  
+}
+.full-width .logo img{
+    width: 100px;
+    float: left;
+    margin: 0  auto;
+}
+.menu {
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    float: right;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding:  10px;
+    float: left;
+
+}
+   
+nav ul li a{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    background-color: blueviolet;
+}
+nav ul li a:hover{
+    background-image: linear-gradient(180deg,blueviolet,#6f1abd);
+}
+
+
+.top-section{
+    height: 560px;
+    background-color: aliceblue;
+    
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+#info-section{
+    margin-top: 100px;
+}
+.top-section h1{
+    font-size: 50px;
+    
+    margin-bottom: 0;
+}
+
+.top-section h2{
+    font-size: 35px;
+    color: blueviolet;
+    margin: 0;
+}
+.top-section p{
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.top-section img{
+    width: 100%;
+}
+.link-btn{
+    width: 20%;
+    float: left;
+}
+.hireme a{
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    background-color: blueviolet;
+}
+.hireme a:hover{
+    background-image: linear-gradient(180deg,blueviolet,#6f1abd);
+    transition: .5s;
+}
+
+.resume a{
+    margin-left: 10px;
+    text-decoration: none;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+    border: solid 1px blueviolet;
+    color: blueviolet;
+    border-radius: 5px;
+}
+.resume a:hover{
+    border: solid 1px blueviolet;
+    color: white;
+    background-image: linear-gradient(180deg,blueviolet,#6f1abd);
+    transition: .5s;
+}
+.about-me{
+    height: 500px;
+
+}
+.about-me img{
+    width: 400px;
+    padding: 40px; 
+}
+.about-me h1{
+    padding-top: 50px;
+    font-size: 30px;  
+}
+.about-me p{
+    text-align: justify;
+    color: dimgray;
+    padding-bottom: 20px;
+}
+.servies-part{
+    height:400px;
+    width: 90%;
+    margin-left: 5%;
+    
+
+}
+.servies-part h1{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline blueviolet ;
+}
+.row{
+    display: grid;
+    grid-gap:40px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.servies{
+    text-align: center;
+    padding: 25px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: transparent;
+    transition: transform 0.5s;
+    box-shadow: 5px 5px 10px gray;
+}
+.servies i{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: blueviolet;
+}
+.servies:hover i{
+    color: white;
+}
+.servies:hover{
+    background-image: linear-gradient(180deg,blueviolet,#6f1abd);
+    color: white;
+    transform: scale(1.05);
+}
+
+
+.footer-section{
+    padding: 40px 0;
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+}
+.footer-section .socil{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.footer-section .socil a{
+    color: white;
+    font-size: 30px;
+    margin: 0px 20px;
+    opacity: 0.75;
+}
+.footer-section .socil a:hover {
+    opacity: 1;
+}
+.footer-list ul{
+    list-style: none;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.footer-list ul a{
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.footer-list ul a:hover{
+    background-color: white;
+    color: blueviolet;
+    border-radius: 5px;  
+}
+.footer-list ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+.footer-list p{
+    margin-top: 25px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
